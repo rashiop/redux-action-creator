@@ -1,5 +1,8 @@
 Based on medium [article](https://medium.com/stashaway-engineering/react-redux-tips-better-way-to-handle-loading-flags-in-your-reducers-afda42a804c6)
 
+NOTE: 
+not a working example
+
 #### Stack:
 1. React
 2. Redux
