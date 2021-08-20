@@ -1,7 +1,9 @@
 Based on medium [article](https://medium.com/stashaway-engineering/react-redux-tips-better-way-to-handle-loading-flags-in-your-reducers-afda42a804c6)
 
 NOTE: 
-not a working example
+not a working example (demo only)
+the implementation in project depends on our mutual agreement
+it might be better if we separate hooks/useApiSelector into useLoading & useSuccess
 
 #### Stack:
 1. React
