@@ -25,7 +25,7 @@ const useApiSelector = ({ type, actions = [], logic = 'some' }) => {
   switch (type) {
     case 'success':
     case 'loading':
-      return actions[logic]((action) => Boolean((state[type] || {})[action]))
+      return actions[logic]((action) => Boolean((state[type] || {})[action.default]))
     default:
       return false
   }
